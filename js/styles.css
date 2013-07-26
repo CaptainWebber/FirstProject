@@ -1,0 +1,61 @@
+h1 {
+    font-size: 18pt;
+    border-bottom: 1px solid black;
+}
+h2 {
+    font-size: 14pt;
+}
+table {
+    border-collapse: collapse;
+}
+select, input {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#prob-1-container input,
+#prob-1-container select {
+    text-align: center;
+}
+
+#prob-2-container ul.test-word-list {
+    list-style: none;
+    padding-left: 0;
+}
+#prob-2-container ul.test-word-list li {
+    width: 10em;
+    padding: 0.2em 0.5em;
+    margin: 0.2em 0em;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    background-color: #ffc;
+}
+#prob-2-container ul.test-word-list li.active {
+    background-color: #cfc;
+    font-weight: bold;
+}
+#prob-2-container ul.test-word-list li.inactive {
+    background-color: #ffe;
+    color: #ccc;
+}
+
+#prob-3-container {
+    min-height: 13em;
+}
+#prob-3-container .animal-form table td,
+#prob-3-container .animal-form table th {
+    padding: 0.4em 0.5em;
+}
+#prob-3-container .animal-form table th {
+    padding-right: 0;
+    text-align: right;
+}
+#prob-3-container .animal-form table td {
+    width: 8em;
+}
+#prob-3-container .animal-form input[type="text"],
+#prob-3-container .animal-form select {
+    height: 1.7em;
+    width: 100%;
+}

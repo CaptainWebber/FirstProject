@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="wire.js"></script>
+        <script type="text/javascript" src="animal.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <title>JS101 Assignment 1</title>
+    </head>
+    <body>
+
+        <h1>Problem 1</h1>
+        <div id="prob-1-container">
+            <h2>Perform the following arithmetic operation:</h2>
+            <p>
+                <input class="left-input" type="text" value="2" size="3"/>
+                <select class="operand-select">
+                    <option value="add">&plus;</option>
+                    <option value="subtract">&minus;</option>
+                    <option value="multiply">&times;</option>
+                    <option value="divide">&divide;</option>
+                </select>
+                <input class="right-input" type="text" value="2" size="3"/>
+                =
+                <span class="result-span">?</span>
+            </p>
+            <p>
+                <button class="calculate-button">Calculate</button>
+            </p>
+        </div>
+
+        <h1>Problem 2</h1>
+        <div id="prob-2-container">
+            <h2>Highlight words that contain the following phrase:</h2>
+            <form class="search-word-form">
+                <input class="search-word-input"/>
+                <input class="run-search-submit" type="submit" value="Search"/>
+            </form>
+            <ul class="test-word-list"></ul>
+        </div>
+
+        <h1>Problem 3</h1>
+        <div id="prob-3-container">
+            <form class="animal-form">
+                <table><tbody>
+                    <tr><th>Species</th>
+                        <td><select name="species">
+                            <option value="">-- Select --</option>
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="pig">Pig</option>
+                            <option value="horse">Horse</option>
+                        </select></td>
+                    </tr>
+                    <tr><th>Name</th>
+                        <td><input name="name" type="text"/></td>
+                    </tr>
+                    <tr><th>Age</th>
+                        <td><input name="age" type="text"/></td>
+                    </tr>
+                    <tr><th>&nbsp;</th>
+                        <td>
+                            <input type="submit" value="Create"/>
+                            <a href="#" class="animal-form-clear">Clear</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </form>
+            <p class="animal-output"></p>
+        </div>
+
+    </body>
+</html>
